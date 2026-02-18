@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ecoSpold xmlns="http://www.EcoInvent.org/EcoSpold01">
+    <dataset number="3087476" generator="openLCA" timestamp="2026-02-09T14:03:41.744+01:00">
+        <metaInformation>
+            <processInformation>
+                <referenceFunction datasetRelatesToProduct="true" name="Fertilizantes T" localName="Fertilizantes T" infrastructureProcess="false" amount="1000.0" unit="kg" category="_TOMATE" subCategory="unspecified" localCategory="_TOMATE" localSubCategory="unspecified" generalComment=""/>
+                <geography location="GLO"/>
+                <technology/>
+                <timePeriod dataValidForEntirePeriod="true">
+                    <startDate>9999-01-01+01:00</startDate>
+                    <endDate>9999-12-31+01:00</endDate>
+                </timePeriod>
+                <dataSetInformation type="1" impactAssessmentResult="false" timestamp="2026-02-09T10:06:10.726+01:00" version="0.0" internalVersion="0.0" energyValues="0" languageCode="en" localLanguageCode="en"/>
+            </processInformation>
+            <modellingAndValidation>
+                <source number="1" sourceType="0" firstAuthor="default" year="9999" title="Created for EcoSpold 1 compatibility" placeOfPublications="none"/>
+            </modellingAndValidation>
+            <administrativeInformation>
+                <dataEntryBy person="1"/>
+                <dataGeneratorAndPublication person="1" dataPublishedIn="0" copyright="false" accessRestrictedTo="0"/>
+                <person number="1" name="default" address="Created for EcoSpold 1 compatibility" telephone="000" companyCode="default" countryCode="CH"/>
+            </administrativeInformation>
+        </metaInformation>
+        <flowData>
+            <exchange number="3087474" category="unspecified" subCategory="unspecified" localCategory="unspecified" localSubCategory="unspecified" name="Fertilizantes T" location="GLO" unit="kg" meanValue="1000.0" infrastructureProcess="false">
+                <outputGroup>0</outputGroup>
+            </exchange>
+            <exchange number="339839" category="chemicals" subCategory="fertilisers (inorganic)" localCategory="chemicals" localSubCategory="fertilisers (inorganic)" name="Ammonium nitrate phosphate, as N, at regional storehouse {RER}" location="RER" unit="kg" meanValue="2.0" infrastructureProcess="false">
+                <inputGroup>5</inputGroup>
+            </exchange>
+            <exchange number="229506" category="chemicals" subCategory="fertilisers (inorganic)" localCategory="chemicals" localSubCategory="fertilisers (inorganic)" name="Ammonium nitrate phosphate, as P2O5, at regional storehouse {RER}" location="RER" unit="kg" meanValue="2.29" infrastructureProcess="false">
+                <inputGroup>5</inputGroup>
+            </exchange>
+            <exchange number="229502" category="chemicals" subCategory="fertilisers (inorganic)" localCategory="chemicals" localSubCategory="fertilisers (inorganic)" name="Potassium nitrate, as K2O, at regional storehouse {RER}" location="RER" unit="kg" meanValue="3.6" infrastructureProcess="false">
+                <inputGroup>5</inputGroup>
+            </exchange>
+            <exchange number="178349" category="agricultural" subCategory="agricultural production\fuels" localCategory="agricultural" localSubCategory="agricultural production\fuels" name="Diesel, burned in agricultural machine {CH}" location="CH" unit="kg" meanValue="0.075" infrastructureProcess="false">
+                <inputGroup>5</inputGroup>
+            </exchange>
+            <exchange number="46472" category="Emission to air" subCategory="unspecified" localCategory="Emission to air" localSubCategory="unspecified" CASNumber="011104-93-1" name="Nitrogen oxides, ES" unit="kg" meanValue="0.08" formula="" infrastructureProcess="false">
+                <outputGroup>4</outputGroup>
+            </exchange>
+            <exchange number="107466" category="Emission to air" subCategory="unspecified" localCategory="Emission to air" localSubCategory="unspecified" CASNumber="10024-97-2" name="Dinitrogen monoxide" unit="kg" meanValue="0.01" formula="N2O" infrastructureProcess="false">
+                <outputGroup>4</outputGroup>
+            </exchange>
+            <exchange number="143091" category="emissions to air" subCategory="unspecified" localCategory="emissions to air" localSubCategory="unspecified" CASNumber="007664-41-7" name="Ammonia" unit="kg" meanValue="0.0328" infrastructureProcess="false">
+                <outputGroup>4</outputGroup>
+            </exchange>
+            <exchange number="142331" category="emissions to water" subCategory="unspecified" localCategory="emissions to water" localSubCategory="unspecified" CASNumber="014797-55-8" name="Nitrate" unit="kg" meanValue="0.6" infrastructureProcess="false">
+                <outputGroup>4</outputGroup>
+            </exchange>
+        </flowData>
+    </dataset>
+    <dataset number="3087511" generator="openLCA" timestamp="2026-02-09T14:03:41.842+01:00">
+        <metaInformation>
+            <processInformation>
+                <referenceFunction datasetRelatesToProduct="true" name="Pesticidas T" localName="Pesticidas T" infrastructureProcess="false" amount="1000.0" unit="kg" category="_TOMATE" subCategory="unspecified" localCategory="_TOMATE" localSubCategory="unspecified" generalComment=""/>
+                <geography location="GLO"/>
+                <technology/>
+                <timePeriod dataValidForEntirePeriod="true">
+                    <startDate>9999-01-01+01:00</startDate>
+                    <endDate>9999-12-31+01:00</endDate>
+                </timePeriod>
+                <dataSetInformation type="5" impactAssessmentResult="false" timestamp="2026-02-09T10:26:36.147+01:00" version="0.0" internalVersion="0.0" energyValues="0" languageCode="en" localLanguageCode="en"/>
+            </processInformation>
+            <modellingAndValidation>
+                <source number="1" sourceType="0" firstAuthor="default" year="9999" title="Created for EcoSpold 1 compatibility" placeOfPublications="none"/>
+            </modellingAndValidation>
+            <administrativeInformation>
+                <dataEntryBy person="1"/>
+                <dataGeneratorAndPublication person="1" dataPublishedIn="0" copyright="false" accessRestrictedTo="0"/>
+                <person number="1" name="default" address="Created for EcoSpold 1 compatibility" telephone="000" companyCode="default" countryCode="CH"/>
+            </administrativeInformation>
+        </metaInformation>
+        <flowData>
+            <exchange number="3087509" category="unspecified" subCategory="unspecified" localCategory="unspecified" localSubCategory="unspecified" name="Pesticidas T" location="GLO" unit="kg" meanValue="1000.0" infrastructureProcess="false">
+                <outputGroup>0</outputGroup>
+            </exchange>
+            <exchange number="339448" category="chemicals" subCategory="pesticides" localCategory="chemicals" localSubCategory="pesticides" name="Pendimethalin, at regional storage {RER}" location="RER" unit="kg" meanValue="0.0139594" infrastructureProcess="false">
+                <inputGroup>5</inputGroup>
+            </exchange>
+            <exchange number="419093" category="material, obsolete" subCategory="wood, obsolete\extraction, obsolete\pesticides, obsolete" localCategory="material, obsolete" localSubCategory="wood, obsolete\extraction, obsolete\pesticides, obsolete" name="xx Diazole-compounds, at regional storehouse {RER}" location="RER" unit="kg" meanValue="0.0" infrastructureProcess="false">
+                <inputGroup>5</inputGroup>
+            </exchange>
+            <exchange number="224505" category="chemicals" subCategory="pesticides" localCategory="chemicals" localSubCategory="pesticides" name="Glyphosate, at regional storehouse {RER}" location="RER" unit="kg" meanValue="0.0" infrastructureProcess="false">
+                <inputGroup>5</inputGroup>
+            </exchange>
+            <exchange number="453102" category="material, obsolete" subCategory="wood, obsolete\extraction, obsolete\pesticides, obsolete" localCategory="material, obsolete" localSubCategory="wood, obsolete\extraction, obsolete\pesticides, obsolete" name="xx Captan, at regional storage {RER}" location="RER" unit="kg" meanValue="0.0" infrastructureProcess="false">
+                <inputGroup>5</inputGroup>
+            </exchange>
+            <exchange number="209377" category="chemicals" subCategory="pesticides" localCategory="chemicals" localSubCategory="pesticides" name="Triazine-compounds, at regional storehouse {RER}" location="RER" unit="kg" meanValue="0.00621" infrastructureProcess="false">
+                <inputGroup>5</inputGroup>
+            </exchange>
+            <exchange number="209377" category="chemicals" subCategory="pesticides" localCategory="chemicals" localSubCategory="pesticides" name="Triazine-compounds, at regional storehouse {RER}" location="RER" unit="kg" meanValue="0.0" infrastructureProcess="false">
+                <inputGroup>5</inputGroup>
+            </exchange>
+            <exchange number="151513" category="chemicals" subCategory="pesticides" localCategory="chemicals" localSubCategory="pesticides" name="Organophosphorus-compounds, at regional storehouse {RER}" location="RER" unit="kg" meanValue="0.0" infrastructureProcess="false">
+                <inputGroup>5</inputGroup>
+            </exchange>
+            <exchange number="262001" category="chemicals" subCategory="pesticides" localCategory="chemicals" localSubCategory="pesticides" name="Pyretroid-compounds, at regional storehouse {RER}" location="RER" unit="kg" meanValue="2.066E-4" infrastructureProcess="false">
+                <inputGroup>5</inputGroup>
+            </exchange>
+            <exchange number="452127" category="material, obsolete" subCategory="wood, obsolete\extraction, obsolete\pesticides, obsolete" localCategory="material, obsolete" localSubCategory="wood, obsolete\extraction, obsolete\pesticides, obsolete" name="xx Folpet, at regional storage {RER}" location="RER" unit="kg" meanValue="0.0" infrastructureProcess="false">
+                <inputGroup>5</inputGroup>
+            </exchange>
+            <exchange number="536810" category="material, obsolete" subCategory="wood, obsolete\extraction, obsolete\pesticides, obsolete" localCategory="material, obsolete" localSubCategory="wood, obsolete\extraction, obsolete\pesticides, obsolete" name="xx Pyridine-compounds, at regional storehouse {RER}" location="RER" unit="kg" meanValue="0.002" infrastructureProcess="false">
+                <inputGroup>5</inputGroup>
+            </exchange>
+            <exchange number="138646" category="chemicals" subCategory="pesticides" localCategory="chemicals" localSubCategory="pesticides" name="Nitrile-compounds, at regional storehouse {RER}" location="RER" unit="kg" meanValue="0.0" infrastructureProcess="false">
+                <inputGroup>5</inputGroup>
+            </exchange>
+            <exchange number="339546" category="chemicals" subCategory="pesticides" localCategory="chemicals" localSubCategory="pesticides" name="Metolachlor, at regional storehouse {RER}" location="RER" unit="kg" meanValue="0.0138528" infrastructureProcess="false">
+                <inputGroup>5</inputGroup>
+            </exchange>
+            <exchange number="339550" category="chemicals" subCategory="pesticides" localCategory="chemicals" localSubCategory="pesticides" name="Acetamide-anillide-compounds, at regional storehouse {RER}" location="RER" unit="kg" meanValue="0.0" infrastructureProcess="false">
+                <inputGroup>5</inputGroup>
+            </exchange>
+            <exchange number="139665" category="chemicals" subCategory="pesticides" localCategory="chemicals" localSubCategory="pesticides" name="Pesticide unspecified, at regional storehouse {RER}" location="RER" unit="kg" meanValue="0.00582875" infrastructureProcess="false">
+                <inputGroup>5</inputGroup>
+            </exchange>
+            <exchange number="151537" category="chemicals" subCategory="pesticides" localCategory="chemicals" localSubCategory="pesticides" name="Dinitroaniline-compounds, at regional storehouse {RER}" location="RER" unit="kg" meanValue="0.0" infrastructureProcess="false">
+                <inputGroup>5</inputGroup>
+            </exchange>
+            <exchange number="151525" category="chemicals" subCategory="pesticides" localCategory="chemicals" localSubCategory="pesticides" name="Cyclic N-compounds, at regional storehouse {RER}" location="RER" unit="kg" meanValue="0.003446" infrastructureProcess="false">
+                <inputGroup>5</inputGroup>
+            </exchange>
+            <exchange number="177174" category="chemicals" subCategory="pesticides" localCategory="chemicals" localSubCategory="pesticides" name="Phenoxy-compounds, at regional storehouse {RER}" location="RER" unit="kg" meanValue="0.0" infrastructureProcess="false">
+                <inputGroup>5</inputGroup>
+            </exchange>
+            <exchange number="63618" category="Emission to air" subCategory="unspecified" localCategory="Emission to air" localSubCategory="unspecified" CASNumber="2921-88-2" name="Chlorpyrifos" unit="kg" meanValue="0.0" formula="C9H11Cl3NO3PS" infrastructureProcess="false">
+                <outputGroup>4</outputGroup>
+            </exchange>
+            <exchange number="339448" category="chemicals" subCategory="pesticides" localCategory="chemicals" localSubCategory="pesticides" name="Pendimethalin, at regional storage {RER}" location="RER" unit="kg" meanValue="0.001256346" infrastructureProcess="false">
+                <outputGroup>2</outputGroup>
+            </exchange>
+            <exchange number="118042" category="Emission to air" subCategory="unspecified" localCategory="Emission to air" localSubCategory="unspecified" CASNumber="70630-17-0" name="Metalaxyl-M" unit="kg" meanValue="0.0" formula="C15H21NO4" infrastructureProcess="false">
+                <outputGroup>4</outputGroup>
+            </exchange>
+        </flowData>
+    </dataset>
+    <dataset number="3087489" generator="openLCA" timestamp="2026-02-09T14:03:41.859+01:00">
+        <metaInformation>
+            <processInformation>
+                <referenceFunction datasetRelatesToProduct="true" name="Manejo de cultivo T" localName="Manejo de cultivo T" infrastructureProcess="false" amount="1000.0" unit="kg" category="_TOMATE" subCategory="unspecified" localCategory="_TOMATE" localSubCategory="unspecified" generalComment=""/>
+                <geography location="GLO"/>
+                <technology/>
+                <timePeriod dataValidForEntirePeriod="true">
+                    <startDate>9999-01-01+01:00</startDate>
+                    <endDate>9999-12-31+01:00</endDate>
+                </timePeriod>
+                <dataSetInformation type="1" impactAssessmentResult="false" timestamp="2026-02-09T10:18:40.875+01:00" version="0.0" internalVersion="0.0" energyValues="0" languageCode="en" localLanguageCode="en"/>
+            </processInformation>
+            <modellingAndValidation>
+                <source number="1" sourceType="0" firstAuthor="default" year="9999" title="Created for EcoSpold 1 compatibility" placeOfPublications="none"/>
+            </modellingAndValidation>
+            <administrativeInformation>
+                <dataEntryBy person="1"/>
+                <dataGeneratorAndPublication person="1" dataPublishedIn="0" copyright="false" accessRestrictedTo="0"/>
+                <person number="1" name="default" address="Created for EcoSpold 1 compatibility" telephone="000" companyCode="default" countryCode="CH"/>
+            </administrativeInformation>
+        </metaInformation>
+        <flowData>
+            <exchange number="3087487" category="unspecified" subCategory="unspecified" localCategory="unspecified" localSubCategory="unspecified" name="Manejo de cultivo T" location="GLO" unit="kg" meanValue="1000.0" infrastructureProcess="false">
+                <outputGroup>0</outputGroup>
+            </exchange>
+            <exchange number="89182" category="Resource" subCategory="biotic" localCategory="Resource" localSubCategory="biotic" CASNumber="" name="Occupation, annual crop, irrigated" unit="ha*a" meanValue="0.003232877" formula="" infrastructureProcess="false">
+                <inputGroup>4</inputGroup>
+            </exchange>
+            <exchange number="134458" category="Resource" subCategory="in ground" localCategory="Resource" localSubCategory="in ground" CASNumber="" name="Water, unspecified natural origin, ES" unit="m3" meanValue="65.0" formula="" infrastructureProcess="false">
+                <inputGroup>4</inputGroup>
+            </exchange>
+            <exchange number="160842" category="transport systems" subCategory="road\operations\infrastructure" localCategory="transport systems" localSubCategory="road\operations\infrastructure" name="Tractor, production {CH}" location="CH" unit="kg" meanValue="0.0" infrastructureProcess="true">
+                <inputGroup>5</inputGroup>
+            </exchange>
+            <exchange number="102550" category="Resource" subCategory="in ground" localCategory="Resource" localSubCategory="in ground" CASNumber="" name="Transformation, to annual crop, irrigated" unit="ha" meanValue="0.003232877" formula="" infrastructureProcess="false">
+                <inputGroup>4</inputGroup>
+            </exchange>
+            <exchange number="162955" category="agricultural" subCategory="unspecified" localCategory="agricultural" localSubCategory="unspecified" name="Tillage, harrowing, by rotary harrow {CH}" location="CH" unit="ha" meanValue="0.005" infrastructureProcess="false">
+                <inputGroup>5</inputGroup>
+            </exchange>
+            <exchange number="178349" category="agricultural" subCategory="agricultural production\fuels" localCategory="agricultural" localSubCategory="agricultural production\fuels" name="Diesel, burned in agricultural machine {CH}" location="CH" unit="kg" meanValue="0.3487536" infrastructureProcess="false">
+                <inputGroup>5</inputGroup>
+            </exchange>
+            <exchange number="160842" category="transport systems" subCategory="road\operations\infrastructure" localCategory="transport systems" localSubCategory="road\operations\infrastructure" name="Tractor, production {CH}" location="CH" unit="kg" meanValue="0.0" infrastructureProcess="true">
+                <inputGroup>5</inputGroup>
+            </exchange>
+            <exchange number="139659" category="agricultural" subCategory="unspecified" localCategory="agricultural" localSubCategory="unspecified" name="Application of plant protection products, by field sprayer {CH}" location="CH" unit="m2" meanValue="0.039285714" infrastructureProcess="false">
+                <inputGroup>5</inputGroup>
+            </exchange>
+            <exchange number="139631" category="agricultural" subCategory="unspecified" localCategory="agricultural" localSubCategory="unspecified" name="Combine harvesting {CH}" location="CH" unit="ha" meanValue="0.0" infrastructureProcess="false">
+                <inputGroup>5</inputGroup>
+            </exchange>
+            <exchange number="161231" category="agricultural" subCategory="operations\infrastructure" localCategory="agricultural" localSubCategory="operations\infrastructure" name="Agricultural machinery, tillage, production {CH}" location="CH" unit="kg" meanValue="0.0" infrastructureProcess="true">
+                <inputGroup>5</inputGroup>
+            </exchange>
+            <exchange number="139680" category="agricultural" subCategory="unspecified" localCategory="agricultural" localSubCategory="unspecified" name="Tillage, cultivating, chiselling {CH}" location="CH" unit="ha" meanValue="0.025" infrastructureProcess="false">
+                <inputGroup>5</inputGroup>
+            </exchange>
+            <exchange number="160838" category="agricultural" subCategory="operations\infrastructure" localCategory="agricultural" localSubCategory="operations\infrastructure" name="Agricultural machinery, general, production {CH}" location="CH" unit="kg" meanValue="0.0" infrastructureProcess="true">
+                <inputGroup>5</inputGroup>
+            </exchange>
+            <exchange number="382404" category="transport systems" subCategory="road\operations\infrastructure" localCategory="transport systems" localSubCategory="road\operations\infrastructure" name="Harvester, production {CH}" location="CH" unit="kg" meanValue="0.028286" infrastructureProcess="true">
+                <inputGroup>5</inputGroup>
+            </exchange>
+            <exchange number="317768" category="processing, obsolete" subCategory="agricultural, obsolete" localCategory="processing, obsolete" localSubCategory="agricultural, obsolete" name="xx Tillage, rotary cultivator {CH}" location="CH" unit="ha" meanValue="0.0066667" infrastructureProcess="false">
+                <inputGroup>5</inputGroup>
+            </exchange>
+            <exchange number="447908" category="agricultural" subCategory="unspecified" localCategory="agricultural" localSubCategory="unspecified" name="Planting {CH}" location="CH" unit="ha" meanValue="0.003" infrastructureProcess="false">
+                <inputGroup>5</inputGroup>
+            </exchange>
+            <exchange number="162955" category="agricultural" subCategory="unspecified" localCategory="agricultural" localSubCategory="unspecified" name="Tillage, harrowing, by rotary harrow {CH}" location="CH" unit="ha" meanValue="0.015" infrastructureProcess="false">
+                <inputGroup>5</inputGroup>
+            </exchange>
+            <exchange number="178349" category="agricultural" subCategory="agricultural production\fuels" localCategory="agricultural" localSubCategory="agricultural production\fuels" name="Diesel, burned in agricultural machine {CH}" location="CH" unit="kg" meanValue="0.33696" infrastructureProcess="false">
+                <inputGroup>5</inputGroup>
+            </exchange>
+        </flowData>
+    </dataset>
+    <dataset number="3087578" generator="openLCA" timestamp="2026-02-09T14:03:41.873+01:00">
+        <metaInformation>
+            <processInformation>
+                <referenceFunction datasetRelatesToProduct="true" name="Sistema de riego T" localName="Sistema de riego T" infrastructureProcess="false" amount="1000.0" unit="kg" category="_TOMATE" subCategory="unspecified" localCategory="_TOMATE" localSubCategory="unspecified" generalComment=""/>
+                <geography location="GLO"/>
+                <technology/>
+                <timePeriod dataValidForEntirePeriod="true">
+                    <startDate>9999-01-01+01:00</startDate>
+                    <endDate>9999-12-31+01:00</endDate>
+                </timePeriod>
+                <dataSetInformation type="1" impactAssessmentResult="false" timestamp="2026-02-09T10:43:24.377+01:00" version="0.0" internalVersion="0.0" energyValues="0" languageCode="en" localLanguageCode="en"/>
+            </processInformation>
+            <modellingAndValidation>
+                <source number="1" sourceType="0" firstAuthor="default" year="9999" title="Created for EcoSpold 1 compatibility" placeOfPublications="none"/>
+            </modellingAndValidation>
+            <administrativeInformation>
+                <dataEntryBy person="1"/>
+                <dataGeneratorAndPublication person="1" dataPublishedIn="0" copyright="false" accessRestrictedTo="0"/>
+                <person number="1" name="default" address="Created for EcoSpold 1 compatibility" telephone="000" companyCode="default" countryCode="CH"/>
+            </administrativeInformation>
+        </metaInformation>
+        <flowData>
+            <exchange number="3087576" category="unspecified" subCategory="unspecified" localCategory="unspecified" localSubCategory="unspecified" name="Sistema de riego T" location="GLO" unit="kg" meanValue="1000.0" infrastructureProcess="false">
+                <outputGroup>0</outputGroup>
+            </exchange>
+            <exchange number="139975" category="plastics" subCategory="unspecified" localCategory="plastics" localSubCategory="unspecified" name="Extrusion, plastic pipes {RER}" location="RER" unit="kg" meanValue="0.9222785" infrastructureProcess="false">
+                <inputGroup>5</inputGroup>
+            </exchange>
+            <exchange number="178349" category="agricultural" subCategory="agricultural production\fuels" localCategory="agricultural" localSubCategory="agricultural production\fuels" name="Diesel, burned in agricultural machine {CH}" location="CH" unit="kg" meanValue="0.70272" infrastructureProcess="false">
+                <inputGroup>5</inputGroup>
+            </exchange>
+            <exchange number="160842" category="transport systems" subCategory="road\operations\infrastructure" localCategory="transport systems" localSubCategory="road\operations\infrastructure" name="Tractor, production {CH}" location="CH" unit="kg" meanValue="0.0" infrastructureProcess="true">
+                <inputGroup>5</inputGroup>
+            </exchange>
+            <exchange number="163576" category="metals" subCategory="general manufacturing" localCategory="metals" localSubCategory="general manufacturing" name="Steel product manufacturing, average metal working {RER}" location="RER" unit="kg" meanValue="0.0325" infrastructureProcess="false">
+                <inputGroup>5</inputGroup>
+            </exchange>
+            <exchange number="177151" category="plastics" subCategory="thermoplasts" localCategory="plastics" localSubCategory="thermoplasts" name="Polystyrene, expandable, at plant {RER}" location="RER" unit="kg" meanValue="0.0" infrastructureProcess="false">
+                <inputGroup>5</inputGroup>
+            </exchange>
+            <exchange number="451575" category="construction materials" subCategory="others" localCategory="construction materials" localSubCategory="others" name="Steel, low alloyed, secondary production (100% Rec.) {CH}" location="CH" unit="kg" meanValue="0.0325" infrastructureProcess="false">
+                <inputGroup>5</inputGroup>
+            </exchange>
+            <exchange number="84134" category="Resource" subCategory="in ground" localCategory="Resource" localSubCategory="in ground" CASNumber="007732-18-5" name="Water, well, RER" unit="m3" meanValue="0.0" formula="" infrastructureProcess="false">
+                <inputGroup>4</inputGroup>
+            </exchange>
+            <exchange number="138063" category="plastics" subCategory="thermoplasts" localCategory="plastics" localSubCategory="thermoplasts" name="Polypropylene, granulate, at plant {RER}" location="RER" unit="kg" meanValue="0.78367" infrastructureProcess="false">
+                <inputGroup>5</inputGroup>
+            </exchange>
+            <exchange number="138247" category="transport systems" subCategory="road\Transformation" localCategory="transport systems" localSubCategory="road\Transformation" name="Transport, freight, lorry, 7.5t-16t gross weight, fleet average {RER}" location="RER" unit="t*km" meanValue="0.0" infrastructureProcess="false">
+                <inputGroup>5</inputGroup>
+            </exchange>
+            <exchange number="173014" category="plastics" subCategory="thermoplasts" localCategory="plastics" localSubCategory="thermoplasts" name="Polyvinylchloride, emulsion polymerised, at plant {RER}" location="RER" unit="kg" meanValue="0.138" infrastructureProcess="false">
+                <inputGroup>5</inputGroup>
+            </exchange>
+            <exchange number="149414" category="plastics" subCategory="unspecified" localCategory="plastics" localSubCategory="unspecified" name="Stretch blow moulding {RER}" location="RER" unit="kg" meanValue="0.9222785" infrastructureProcess="false">
+                <inputGroup>5</inputGroup>
+            </exchange>
+            <exchange number="744947" category="waste treatment, obsolete" subCategory="recycling, obsolete" localCategory="waste treatment, obsolete" localSubCategory="recycling, obsolete" name="xx Recycling PE {RER}" location="RER" unit="kg" meanValue="0.784" infrastructureProcess="false">
+                <inputGroup>5</inputGroup>
+            </exchange>
+            <exchange number="744802" category="recycling" subCategory="unspecified" localCategory="recycling" localSubCategory="unspecified" name="Recycling steel and iron {RER}" location="RER" unit="kg" meanValue="0.0" infrastructureProcess="false">
+                <inputGroup>5</inputGroup>
+            </exchange>
+            <exchange number="744951" category="waste treatment, obsolete" subCategory="recycling, obsolete" localCategory="waste treatment, obsolete" localSubCategory="recycling, obsolete" name="xx Recycling PVC {RER}" location="RER" unit="kg" meanValue="0.138" infrastructureProcess="false">
+                <inputGroup>5</inputGroup>
+            </exchange>
+            <exchange number="744949" category="waste treatment, obsolete" subCategory="recycling, obsolete" localCategory="waste treatment, obsolete" localSubCategory="recycling, obsolete" name="xx Recycling PP {RER}" location="RER" unit="kg" meanValue="0.001" infrastructureProcess="false">
+                <inputGroup>5</inputGroup>
+            </exchange>
+        </flowData>
+    </dataset>
+</ecoSpold>

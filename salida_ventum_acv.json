@@ -1,0 +1,110 @@
+{
+  // Forma de autenticación entre Ventum ACV y endpoint de la app??? Para subida de datos
+  "metadatos": {
+    "parcela": {
+      "sigpac": "973219873812", // también identifica el sector, En su defecto:
+      "referencia_catastral": "018000000000000002",
+      "nombre": "Parcela Coria"
+    },
+    "cultivo": {
+      "superficie_cultivada": 20, // hectáreas
+      "produccion": 200, // Toneladas/hectárea
+      "consumo_agua": 2000, // metros cúbicos/hectárea, no sé si valdría con bombeo -> consumo_l_h ya disponible
+      "ciclo": 365, // días hasta recolección
+      "tipo": "Olivo" // Tipo de cultivo
+    },
+    "usuario": { // si no existe usuario con dicho DNI en el sistema, se le daría de alta automáticamente
+      "dni": "22222222F",
+      "nombre": "Iván",
+      "apellidos": "Ruiz López",
+      "email": "ivruizl@alumnos.unex.es"
+    }
+  },
+  "riegos": {
+    "tipo": "Sistema de riego hortícola",
+    "entre_arboles": "1.00",
+    "entre_calles": "1.50",
+    "n_goteros_arbol": null,
+    "n_arboles": 6666.666666666667,
+    "n_calles": 100,
+    "m_portagotero": 10000,
+    "peso_portagoteros_16mm": 563,
+    "n_enganches": 100,
+    "peso_enganches": 1.17,
+    "metros_principal": 100,
+    "peso_principal_32mm": 21.07,
+    "peso_llaves": 0.0208,
+    "kg_PP": 15.220799999999999,
+    "peso_tira_pollo": 78,
+    "peso_principal_17mm": 110.5,
+    "deposito_abono": 5.5,
+    "kg_PP_ha_anio": 1.9025999999999998,
+    "kg_PE_1_ha_anio": 1.1,
+    "kg_PE_2_ha_anio": 78,
+    "kg_PE_deposito_ha_anio": 0.43333333333333335,
+    "kg_PE_ha_anio": 79.53333333333333,
+    "kg_PVC_ha_anio": 13.8125,
+    "kg_PVC_produccion": 0.138125,
+    "kg_PP_produccion": 0.019025999999999998,
+    "kg_PE_produccion": 0.7953333333333333
+  },
+  "caseta": {
+    "alto": "2.00",
+    "largo": "4.00",
+    "ancho": "5.00",
+    "largo_tejado": "4.00",
+    "ancho_tejado": "5.00",
+    "superficie_tejado": 20,
+    "kg_hormigon_m2": 585.7,
+    "kg_hormigon": 11714,
+    "peso_m2_chapas_acero": 9.65,
+    "kg_poliuretano": 35,
+    "kg_acero": 193,
+    "kg_hor": 2.3428,
+    "kg_PU": 0.006999999999999999,
+    "kg_acero_ha_anio": 0.038599999999999995
+  },
+  "bombeo": {
+    "cabeas": 9,
+    "potencia": "4.00",
+    "consumo_l_h": "2.0",
+    "kg_acero_ha_produccion": 0.018000000000000002
+  },
+  "fitosanitarios": {
+    "Acetamide-anillide-compound, unspecified {RER}| production": 0.001194224,
+    "Natural": 0.0015525,
+    " Pyridine-compound {RER}|  pyridine-compound production": 0.009984,
+    "Pesticice, unspecified {RER}| pesticice, unspecified production": 0
+  },
+  "fertilizantes": {
+    "kg_N": 0,
+    "kg_K2O": 0,
+    "kg_P2O5": 0,
+    "kg_NH3": 0,
+    "kg_N2O": 0,
+    "kg_NOX": 0,
+    "kg_NO3": 0,
+    "transporte_fert_UF_1": 0.23
+  },
+  "manejo_cultivo": {
+    "Application of plant protection product, by field sprayer [CH]": {
+      "rendimeinto_h_ha": 0.25,
+      "UF_1_ha": 0.175,
+      "UF_1_ha_produccion": 0.0017499999999999998,
+      "fabricacion": 0.25,
+      "reparacion": 0.1125,
+      "UF_1_kg": 0.3625,
+      "UF_1_kg_produccion": 0.0036249999999999998
+    },
+    "ocupacion_suelo": 0.0032876712328767125,
+    "uso_de_agua": 1.23
+  },
+  "maquinaria": {
+    "cosechadora": {
+      "UF_kg": 33.696,
+      "UF_kg_produccion": 0.33696,
+      "UF_kg_fabricacion": 2.828571429,
+      "UF_kg_fabricacion_produccion": 0.02475
+    }
+  }
+}

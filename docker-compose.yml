@@ -1,0 +1,10 @@
+services:
+  openlca-ipc:
+    build:
+      context: ./openlca-docker
+      dockerfile: Dockerfile
+    ports:
+      - 3000:8080
+    volumes:
+      - ./openlca-docker/data:/app/data
+    command: ["-db", "bafu"]
